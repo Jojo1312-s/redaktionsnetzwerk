@@ -1,0 +1,468 @@
+Entwicklungsstatus – Redaktionsnetzwerk
+
+Version: 1.0
+Stand: 04.11.2026
+Status: Erstfassung – Projektplanung und Umsetzungsstand zusammengeführt
+
+⸻
+
+1. Zweck dieses Dokuments
+
+Dieses Dokument hält den Entwicklungsstand des Redaktionsnetzwerks fest.
+
+Es dient dazu, jederzeit nachvollziehen zu können:
+
+* Welche Projektbestandteile bereits konzeptionell ausgearbeitet sind
+* Welche Entscheidungen getroffen wurden
+* Welche technischen Komponenten noch fehlen
+* Welche Fragen noch geklärt werden müssen
+* Welche Arbeitsschritte als Nächstes anstehen
+* Welche Bestandteile tatsächlich implementiert und getestet wurden
+
+Das Dokument ist keine technische Implementierungsanleitung. Es ist eine Statusübersicht und Arbeitsgrundlage für die weitere Entwicklung.
+
+Wichtige Unterscheidung:
+
+Ein ausgearbeitetes Konzept ist noch keine implementierte Funktion. Eine geplante technische Komponente gilt erst dann als umgesetzt, wenn sie tatsächlich eingerichtet und überprüft wurde.
+
+2. Abhängigkeiten und Geltungsbereich
+
+Dieses Dokument bezieht sich auf folgende Projektunterlagen:
+
+* Handoff.md – ursprüngliche und umfassende Projektgrundlage
+* Projektgrundlage.md – übergeordnete Projektziele und Prinzipien
+* Redaktionshandbuch.md – redaktionelle Identitäten und Zuständigkeiten
+* Plattformhandbuch.md – gemeinsame Plattformregeln
+* Technische-Architektur.md – geplante technische Infrastruktur
+* Betriebs-und-Sicherheitskonzept.md – Verwaltung, Autonomie und Sicherheit
+* Plattformmodule/Telegram.md
+* Plattformmodule/TikTok.md
+* Plattformmodule/Instagram.md
+* Plattformmodule/YouTube.md
+* Plattformmodule/Snapchat.md
+
+Die genannten Handbücher bilden die konzeptionelle Grundlage für die weitere Entwicklung.
+
+Dieses Dokument verändert keine Inhalte dieser Unterlagen.
+
+3. Gesamtstatus
+
+Das Projekt befindet sich in der Phase der konzeptionellen Ausarbeitung und Vorbereitung der technischen Umsetzung.
+
+Die grundlegende Struktur des Netzwerks ist beschrieben. Die redaktionellen Identitäten, die Zusammenarbeit, die gemeinsamen Plattformregeln und die grundsätzliche technische Architektur sind dokumentiert.
+
+Die konkrete technische Implementierung steht jedoch noch aus beziehungsweise ist in diesem Dokument nicht nachgewiesen.
+
+Gesamtbewertung:
+
+* Projektkonzept: ausgearbeitet
+* Redaktionelle Struktur: ausgearbeitet
+* Gemeinsame Plattformregeln: ausgearbeitet
+* Plattformgrundkonzepte: ausgearbeitet
+* Technische Architektur: geplant
+* Betrieb und Sicherheit: konzeptionell ausgearbeitet
+* API-Integrationen: noch zu prüfen und umzusetzen
+* Automatisierte Produktionsprozesse: noch umzusetzen
+* Dashboard und Koordinator: noch umzusetzen
+* Produktivbetrieb: nicht nachgewiesen
+
+4. Projektstruktur
+
+Das Netzwerk soll aus sieben KI-Agenten bestehen:
+
+1. Bewegungsmedium
+2. Protestmedium
+3. Aktivistische Community
+4. Satiremedium
+5. Jugendkulturmedium
+6. Dokumentation & Trends
+7. Zentraler Koordinator
+
+Die sechs redaktionellen Agenten arbeiten eigenständig innerhalb ihrer jeweiligen Profile. Der Koordinator übernimmt die übergreifende Themenbeobachtung, Aufgabenverteilung, Abstimmung und Leistungsübersicht.
+
+4.1 Plattformen
+
+Vorgesehen sind fünf Plattformen:
+
+Plattform	Konzeptstatus	Technische Integration
+Telegram	Grundkonzept ausgearbeitet	Offen
+TikTok	Grundkonzept ausgearbeitet	Offen
+Instagram	Grundkonzept ausgearbeitet	Offen
+YouTube	Grundkonzept ausgearbeitet	Offen
+Snapchat	Grundkonzept ausgearbeitet	Offen
+
+Telegram ist konzeptionell am detailliertesten ausgearbeitet. Die technische Implementierung ist dennoch nicht abgeschlossen.
+
+5. Dokumentationsstatus
+
+Die folgenden Handbücher wurden als eigenständige Dokumente ausgearbeitet.
+
+Dokument	Dokumentationsstatus	Technischer Umsetzungsstatus
+Projektgrundlage.md	Erstfassung 1.0	Nicht zutreffend
+Redaktionshandbuch.md	Erstfassung 1.0	Nicht zutreffend
+Plattformhandbuch.md	Erstfassung 1.0	Nicht zutreffend
+Technische-Architektur.md	Erstfassung 1.0	Nicht umgesetzt
+Betriebs-und-Sicherheitskonzept.md	Erstfassung 1.0	Nicht umgesetzt
+Plattformmodule/Telegram.md	Erstfassung 1.0	Offen
+Plattformmodule/TikTok.md	Erstfassung 1.0	Offen
+Plattformmodule/Instagram.md	Erstfassung 1.0	Offen
+Plattformmodule/YouTube.md	Erstfassung 1.0	Offen
+Plattformmodule/Snapchat.md	Erstfassung 1.0	Offen
+
+Hinweis zum Git-Status: Die Erstellung dieser Fassungen im Chat bestätigt nicht, dass sie bereits in das GitHub-Repository übernommen wurden. Der tatsächliche Repository-Stand muss separat geprüft werden.
+
+6. Redaktioneller Entwicklungsstand
+
+6.1 Festgelegte Grundlagen
+
+Folgende Bestandteile sind konzeptionell beschrieben:
+
+* sechs eigenständige redaktionelle Identitäten
+* ein zentraler Koordinator
+* elf gemeinsame Fähigkeiten der redaktionellen Agenten
+* eigenständige Themenfindung durch die Agenten
+* zentrale Themenbeobachtung durch den Koordinator
+* nicht bindende Themenvorschläge
+* Zusammenarbeit über den Koordinator
+* gemeinsame Nutzung veröffentlichter Inhalte
+* eigenständige Leistungsanalyse der Identitäten
+* kanalübergreifende Leistungsübersicht durch den Koordinator
+* zentrale Redaktionsplanung
+
+6.2 Noch offene redaktionelle Entscheidungen
+
+* abschließende Spezialisierung einzelner Agenten
+* genaue Kriterien für Risikoklassifizierung
+* konkrete Freigabestufen
+* genaue Kriterien für die Priorisierung konkurrierender Themen
+* verbindliche Qualitätskontrollen für einzelne Formate
+* konkrete Verfahren für besonders sensible Veröffentlichungen
+
+Bereits bestätigte Regeln bleiben bis zu einer ausdrücklich beschlossenen Änderung gültig.
+
+7. Technischer Entwicklungsstand
+
+7.1 Geplante Grundarchitektur
+
+Die technische Architektur sieht eine gemeinsame Infrastruktur für alle sieben Agenten vor.
+
+Vorgesehene Komponenten:
+
+* zentrale Serverumgebung bei DigitalOcean
+* PostgreSQL als Datenbank
+* n8n für Automatisierungsabläufe
+* Python für Verarbeitung und Integration
+* Docker für die Bereitstellung technischer Dienste
+* gemeinsame Medienbibliothek
+* zentrale Aufgaben- und Veröffentlichungswarteschlangen
+* Protokollierung und Überwachung
+* Plattformadapter für die fünf Plattformen
+
+Diese Komponenten sind Planungsgrundlage. Eine tatsächliche Installation oder Funktionsfähigkeit wird hier nicht behauptet.
+
+7.2 Produktionssystem
+
+Geplant ist ein gemeinsames Produktionssystem für:
+
+* Textproduktion
+* Rechercheunterstützung
+* Bild- und Grafikerstellung
+* Videobearbeitung
+* Audiotranskription
+* Untertitel
+* Formatkonvertierung
+* plattformgerechte Medienaufbereitung
+
+Vorgesehene Werkzeuge sind unter anderem OpenAI API, Python, Pillow, SVG, ImageMagick, FFmpeg und Whisper.
+
+Noch offen sind die konkrete Integration, die Aufgabenverteilung zwischen den Werkzeugen und die technische Qualitätssicherung.
+
+7.3 Datenverwaltung
+
+Vorgesehen ist ein gemeinsames Wissenssystem mit selektiven Zugriffsrechten.
+
+Es soll unterschieden werden zwischen:
+
+* gemeinsamem Grundlagenwissen
+* gemeinsamem Recherchearchiv
+* veröffentlichten Inhalten
+* privaten redaktionellen Notizen
+* unveröffentlichten Entwürfen
+* internen Planungen und Diskussionen
+
+Das Zugriffsmodell shared_selective ist konzeptionell festgelegt. Die technische Durchsetzung der Berechtigungen ist noch umzusetzen.
+
+8. Plattformstatus
+
+8.1 Telegram
+
+Konzeptionell ausgearbeitet:
+
+* sechs Kanäle
+* sechs Bots
+* sechs verknüpfte öffentliche Diskussionsgruppen
+* ein gemeinsamer technischer Telegram-Dienst
+* sechs eigenständige Bot-Tokens
+* gemeinsame Webhook-Verarbeitung
+* zentrale Warteschlange
+* Moderation und Archivierung
+* Telegram-spezifischer Not-Aus
+
+Noch offen:
+
+* Einrichtung der sechs Bots
+* Einrichtung der Kanäle und Gruppen
+* technische Implementierung des Webhooks
+* sichere Tokenverwaltung
+* Datenbankanbindung
+* Veröffentlichungstests
+* Moderations- und Fehlerbehandlungstests
+
+Telegram ist das erste Plattformmodul, dessen technische Umsetzung detailliert vorbereitet werden sollte.
+
+8.2 TikTok
+
+Konzeptionell ausgearbeitet:
+
+* sechs eigenständige redaktionelle Accounts
+* plattformgerechte Kurzvideoformate
+* Anbindung an die gemeinsame Produktionsinfrastruktur
+* gemeinsame Redaktions- und Sicherheitsregeln
+
+Noch offen:
+
+* API-Zugang und Berechtigungen
+* automatisierte Veröffentlichungen
+* Kommentarverarbeitung
+* mögliche Nachrichtenfunktionen
+* Kennzahlenabruf
+* technische Kontoverwaltung
+
+8.3 Instagram
+
+Konzeptionell ausgearbeitet:
+
+* sechs eigenständige redaktionelle Accounts
+* Nutzung visueller und audiovisueller Formate
+* Anbindung an die gemeinsame Produktionsinfrastruktur
+* gemeinsame Redaktions- und Sicherheitsregeln
+
+Noch offen:
+
+* API-Zugang und Berechtigungen
+* automatisierte Veröffentlichungen
+* Unterstützung von Bildern, Karussells, Reels und Stories
+* Kommentarverarbeitung
+* mögliche Nachrichtenfunktionen
+* Kennzahlenabruf
+* technische Kontoverwaltung
+
+8.4 YouTube
+
+Konzeptionell ausgearbeitet:
+
+* sechs eigenständige Kanäle
+* längere Videos und Kurzvideoformate
+* Untertitel und Vorschaubilder
+* gemeinsame Produktionsinfrastruktur
+* gemeinsame Redaktions- und Sicherheitsregeln
+
+Noch offen:
+
+* API-Zugang und Berechtigungen
+* automatisierte Uploads
+* Terminplanung
+* Kommentar- und Moderationsfunktionen
+* Kennzahlenabruf
+* Untertitelworkflow
+* technische Kontoverwaltung
+
+8.5 Snapchat
+
+Konzeptionell ausgearbeitet:
+
+* sechs eigenständige Accounts
+* mobile und vertikale Kurzformate
+* Story-Sequenzen
+* dokumentarische und trendbasierte Inhalte
+* gemeinsame Produktionsinfrastruktur
+* gemeinsame Redaktions- und Sicherheitsregeln
+
+Noch offen:
+
+* offizielle Schnittstellen und Zugangsvoraussetzungen
+* automatisierte Veröffentlichungen
+* Interaktions- und Moderationsmöglichkeiten
+* Kennzahlenabruf
+* technische Kontoverwaltung
+
+9. Betrieb, Sicherheit und Verwaltung
+
+9.1 Verwaltung
+
+Konzeptionell festgelegt:
+
+* uneingeschränkte Administratorrechte ausschließlich beim Betreiber
+* begrenzte Verwaltungsrechte des Koordinators
+* keine administrativen Rechte der sechs redaktionellen Agenten
+* nachvollziehbare Protokollierung administrativer Änderungen
+
+9.2 Autonomie und Freigaben
+
+Konzeptionell festgelegt:
+
+* Routineinhalte können innerhalb definierter Grenzen autonom erstellt und veröffentlicht werden.
+* Sensible oder kontroverse Inhalte benötigen menschliche Freigabe.
+* Risikoreiche Inhalte benötigen die ausdrückliche Freigabe des Betreibers.
+* Ungeklärte Fakten oder Nutzungsrechte blockieren die Veröffentlichung.
+
+Die konkrete Risikoklassifizierung und Freigabelogik müssen noch ausgearbeitet werden.
+
+9.3 Not-Aus
+
+Vorgesehen sind zwei netzwerkweite Not-Aus-Stufen:
+
+1. vollständiger Aktivitätsstopp bei Erhalt des Projekts
+2. Beendigung des Projekts mit geregelter Wiederherstellungs- und Löschphase
+
+Zusätzlich erhält jede Plattform einen eigenen Not-Aus.
+
+Die tatsächliche technische Umsetzung und die Prüfung der Abschaltmechanismen stehen noch aus.
+
+10. Budget und Ressourcen
+
+Das vorgesehene monatliche Budget beträgt 40 Euro.
+
+Vorläufige Aufteilung:
+
+Bereich	Monatsbudget
+Server und Backups	15 €
+OpenAI API	20 €
+Reserve	5 €
+Gesamt	40 €
+
+Diese Aufteilung ist eine Planungsgrundlage und keine bestätigte Kostenprognose.
+
+Die technische Architektur muss innerhalb des Budgets überprüft werden. Insbesondere die gleichzeitige Nutzung mehrerer Agenten, Videoverarbeitung und API-Aufrufe können die verfügbaren Ressourcen überschreiten.
+
+Vorgesehene Budgetgrenzen:
+
+* 70 %: Warnung
+* 90 %: kritische Warnung und Einschränkung kostenintensiver Prozesse
+* 100 %: Stopp neuer kostenintensiver Produktionsaufträge; Wartung, Backups und Sicherheitsfunktionen bleiben erhalten
+
+Die tatsächlichen Kosten müssen während des Betriebs überwacht werden.
+
+11. Empfohlene Reihenfolge der technischen Umsetzung
+
+Die folgende Reihenfolge ist ein Arbeitsvorschlag. Sie ist noch keine endgültig bestätigte technische Roadmap.
+
+Phase 1 – Technische Basis
+
+1. Serverumgebung einrichten.
+2. Docker-Umgebung aufbauen.
+3. PostgreSQL einrichten.
+4. n8n integrieren.
+5. sichere Zugangsdatenverwaltung einrichten.
+6. Backup- und Wiederherstellungsverfahren testen.
+7. Protokollierung und Überwachung einrichten.
+
+Phase 2 – Zentraler Koordinator
+
+1. Koordinator als zentrale Steuerungskomponente aufbauen.
+2. Aufgabenverwaltung implementieren.
+3. zentrale Redaktionsplanung integrieren.
+4. Wissens- und Recherchearchiv anbinden.
+5. Rechte- und Zugriffssystem umsetzen.
+6. Status- und Benachrichtigungssystem einrichten.
+
+Phase 3 – Erste redaktionelle Agenten
+
+1. eine redaktionelle Identität technisch integrieren.
+2. gemeinsame Produktionsabläufe testen.
+3. Recherche- und Quellenprüfung integrieren.
+4. Freigabeprozesse umsetzen.
+5. Veröffentlichung und Fehlerbehandlung testen.
+6. Erfahrungen dokumentieren.
+
+Erst nach erfolgreichem Test sollte die Architektur auf die übrigen Identitäten erweitert werden.
+
+Phase 4 – Telegram
+
+1. sechs Bots einrichten.
+2. Kanäle und Diskussionsgruppen einrichten.
+3. gemeinsame Telegram-Integration entwickeln.
+4. Webhook und Warteschlange implementieren.
+5. Veröffentlichungs- und Moderationsabläufe testen.
+6. Telegram-Not-Aus prüfen.
+
+Phase 5 – Weitere Plattformen
+
+Die übrigen Plattformen werden nacheinander integriert.
+
+Vor jeder Integration müssen API-Zugang, Berechtigungen, Veröffentlichungsfunktionen und technische Einschränkungen geprüft werden.
+
+Phase 6 – Dashboard und Produktivbetrieb
+
+1. Dashboard aufbauen.
+2. Status und Aufgaben aller sieben Agenten anzeigen.
+3. Pausen- und Not-Aus-Funktionen integrieren.
+4. Audit-Log vervollständigen.
+5. tägliche, wöchentliche und monatliche Berichte einrichten.
+6. Benachrichtigungen testen.
+7. Sicherheits- und Belastungstests durchführen.
+8. schrittweisen Produktivbetrieb beginnen.
+
+12. Offene Grundsatzentscheidungen
+
+Folgende Punkte müssen im weiteren Verlauf geklärt werden:
+
+1. endgültige Serverregion
+2. endgültige technische Ressourcen innerhalb des Budgets
+3. konkrete Risikoklassifizierung
+4. genaue Freigabestufen
+5. individuelle Spezialisierung der Agenten
+6. endgültige Rechte- und Datenbankstruktur
+7. technische API-Möglichkeiten aller Plattformen
+8. genaue Ausgestaltung des Dashboards
+9. konkreter Zeitplan der technischen Entwicklung
+10. Test- und Abnahmekriterien für den Produktivbetrieb
+
+Diese Punkte dürfen nicht durch unbegründete Annahmen als entschieden behandelt werden.
+
+13. Nächste konkrete Arbeitsschritte
+
+Aus dem derzeit dokumentierten Stand ergeben sich folgende sinnvolle nächste Schritte:
+
+1. Die erstellten Handbücher in das GitHub-Repository übernehmen.
+2. Prüfen, ob alle Dateien vollständig und unter den vorgesehenen Pfaden vorhanden sind.
+3. Die Dokumentationsstruktur mit dem bestehenden Handoff.md abgleichen.
+4. Die technische Architektur auf ihre Vereinbarkeit mit dem monatlichen Budget prüfen.
+5. Die erste technische Implementierungsphase konkretisieren.
+6. Einen überprüfbaren Entwicklungs- und Testplan erstellen.
+
+Wichtig: Die Übernahme der Handbücher in GitHub ist ein eigener Arbeitsschritt. Solange sie nicht im Repository geprüft wurden, gilt ihr dortiger Status als unbestätigt.
+
+14. Fortschrittsprotokoll
+
+Datum	Bereich	Fortschritt
+04.11.2026	Projektdokumentation	Grundstruktur der eigenständigen Handbücher ausgearbeitet
+04.11.2026	Redaktion	Sechs Identitäten und gemeinsame Regeln dokumentiert
+04.11.2026	Plattformen	Grundkonzepte für fünf Plattformen dokumentiert
+04.11.2026	Technik	Gemeinsame Architektur konzeptionell beschrieben
+04.11.2026	Betrieb und Sicherheit	Grundlegende Verwaltungs- und Sicherheitsregeln dokumentiert
+
+Weitere Fortschritte werden mit Datum, betroffenem Bereich und konkretem Ergebnis ergänzt.
+
+15. Änderungs- und Erweiterungsprotokoll
+
+Version	Datum	Änderung
+1.0	04.11.2026	Erstfassung des Entwicklungsstatus
+
+Bestandsschutz: Dieses Dokument ergänzt die bestehenden Projektunterlagen. Es verändert keine Originaldokumente und ersetzt insbesondere nicht das ursprüngliche Handoff.md.
+
+Neue Entscheidungen, Änderungen und technische Erkenntnisse werden versioniert dokumentiert. Bestehende Festlegungen werden nicht stillschweigend überschrieben.
+
+⸻
+
+Ende des Entwicklungsstatus
